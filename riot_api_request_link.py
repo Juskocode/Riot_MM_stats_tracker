@@ -249,6 +249,27 @@ def main():
     # last  games ids (including non ranked)
     matches = request_matchid_list_api(puuid, 0, 10)
     #print(f'matches = {matches}')
+    # Process match data
+    processed_stats = []
+    for match in matches:
+        match_data = request_match_data(match)
+        processed_stats.append(process_player_and_opposing_data(match_data, puuid))
+
+    # Generate markdown tables
+    main_table = generate_markdown_table_with_opponents(processed_stats)
+    laner_comparison_table = generate_laner_comparison_table(processed_stats)
+
+    # Combine both tables
+    full_markdown = f"{main_table}\n\n# Laner vs Laner Comparison\n\n{laner_comparison_table}"
+
+    # Write to an Obsidian-style markdown file
+    write_markdown_obsidian(
+        markdown_data=full_markdown,
+        file_name="player_stats_comparison_obsidian.md",
+        title="Player Stats and Laner Comparison",
+        tags=["games", "stats", "LeagueOfLegends"]
+    )
+    '''
     # request match data
     matches_data = []
     for match in matches:
@@ -267,7 +288,7 @@ def main():
 
     # Write table to a markdown file
     write_markdown_file(markdown_table)
-
+    '''
 
 if __name__ == "__main__":
     main()
