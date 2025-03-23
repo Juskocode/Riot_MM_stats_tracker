@@ -53,15 +53,15 @@ class ReportGenerator:
         damage_stats = analyzer.get_damage_analysis()
         return f"""## Damage Analysis
 - 🔥 Damage/Min: {damage_stats['dpm']:.0f}
-- 📊 Damage Share: {damage_stats['damage_share'] * 100:.1f}%
-- ⚡ True Damage Ratio: {damage_stats['true_damage_ratio'] * 100:.1f}%
+- 📊 Damage Taken: {damage_stats['total_damage_taken'] * 100:.1f}%
+- ⚡ Total Heal Ratio: {damage_stats['total_heal_ratio'] * 100:.1f}%
 """
 
     def _generate_objectives(self, analyzer: 'StatAnalyzer') -> str:
         obj_stats = analyzer.get_objective_analysis()
         return f"""## Objective Control
 - 🐉 Dragons/Gm: {obj_stats['dragon_control']:.1f}
-- 🏰 Heralds/Gm: {obj_stats['herald_control']:.1f}
+- 🏰 Barons/Gm: {obj_stats['baron_control']:.1f}
 - 👁️ Wards Placed/Gm: {obj_stats['vision_impact']:.1f}
 """
 
