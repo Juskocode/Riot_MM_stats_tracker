@@ -20,11 +20,12 @@ class PlayerStats(BaseModel):
     cs_at_10: float
     gold_diff_at_15: float
     first_blood: bool
+    total_damage_to_champions: float
     total_damage: float
-    true_damage: float
-    damage_share: float
+    total_heal: float
+    total_damage_taken: float
     dragon_kills: int
-    rift_herald_kills: int
+    baron_kills: int
     wards_placed: int
     items: List[str]
     class Config:
