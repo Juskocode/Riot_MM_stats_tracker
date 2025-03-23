@@ -2,7 +2,6 @@ import pytest
 from src.analysis.stat_analyser import StatAnalyzer
 from src.models.schemas import PlayerStats
 
-
 @pytest.fixture
 def sample_stats():
     return PlayerStats(
