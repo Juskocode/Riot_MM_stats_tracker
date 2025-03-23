@@ -230,7 +230,7 @@ def main():
     detailed_report = ReportGenerator.generate_detailed_report(analyzer.matches)
 
     full_report = f"{summary_report}\n\n{detailed_report}"
-    ReportGenerator.save_report(full_report, "performance_report.md")
+    ReportGenerator.save_report(full_report, "../jargonReports/performance_report.md")
 
 
 if __name__ == "__main__":
