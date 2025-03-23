@@ -33,6 +33,7 @@ def main():
         if match_data:
             processed = processor.process_match(match_data, puuid)
             if processed:
+                print(f"went done {match_id}")
                 analyzer.add_match(*processed)
 
     # Generate and save report
