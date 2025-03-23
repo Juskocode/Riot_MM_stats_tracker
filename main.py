@@ -26,7 +26,7 @@ def main():
     else:
         print(f"Player PUUID: {puuid}")
     # Process matches
-    match_ids = api_client.get_match_ids(puuid, count=10)
+    match_ids = api_client.get_match_ids(puuid, count=80)
     for match_id in match_ids:
         match_data = api_client.get_match_data(match_id)
         print(f"Processing match {match_id}")
