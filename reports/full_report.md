@@ -1,42 +1,42 @@
 ## Overall Summary
-- 🏆 Win Rate: 67.4%
+- 🏆 Win Rate: 65.0%
 - ⚔️ Average KDA: 0.00
-- 🎯 CS/Min: 6.4
-- 💰 Gold/Min: 396
-- 🔥 Damage/Min: 766
+- 🎯 CS/Min: 6.2
+- 💰 Gold/Min: 398
+- 🔥 Damage/Min: 822
 
 
 ## Combat Effectiveness
-- ⚖️ Weighted KDA: 2.81
+- ⚖️ Weighted KDA: 2.60
 - 🤝 Kill Participation: 100.0%
 
 
 ## Early Game Performance (0-15min)
 - 🎯 CS @ 10: 0.0
-- 🩸 First Blood Rate: 28.3%
+- 🩸 First Blood Rate: 16.2%
 - 💰 Gold Diff @ 15: 0
 
 
 ## Damage Analysis
-- 🔥 Damage/Min: 128900
-- 📊 Damage Taken: 3418126.1%
+- 🔥 Damage/Min: 131487
+- 📊 Damage Taken: 3678186.3%
 - ⚡ Total Heal Ratio: 0.0%
 
 
 ## Objective Control
 - 🐉 Dragons/Gm: 0.0
 - 🏰 Barons/Gm: 0.0
-- 👁️ Wards Placed/Gm: 7.8
+- 👁️ Wards Placed/Gm: 7.3
 
 
 ## Item Build Analysis
 | Core Items | Win Rate | Popularity |
 |------------|----------|------------|
-|  | 67.4% | 100.0% |
+|  | 65.0% | 100.0% |
 
 ## Comeback Statistics
-- ♻️ Comeback Rate: 21.7%
-- 📉 Avg Deficit: 42 Gold/Min
+- ♻️ Comeback Rate: 21.2%
+- 📉 Avg Deficit: 41 Gold/Min
 
 
 ## Match-by-Match Details
@@ -88,16 +88,50 @@
 | 44 | Shen | 5/7/14 | 4.3 | 304 | 863 | 🏆 Win |
 | 45 | Shen | 4/2/10 | 7.5 | 428 | 882 | 🏆 Win |
 | 46 | Sett | 5/9/2 | 7.1 | 400 | 1024 | 💀 Loss |
+| 47 | Shen | 6/7/3 | 6.5 | 358 | 764 | 💀 Loss |
+| 48 | Shen | 2/6/9 | 7.2 | 382 | 498 | 🏆 Win |
+| 49 | Shen | 2/6/11 | 6.3 | 327 | 513 | 💀 Loss |
+| 50 | Sett | 5/14/4 | 5.3 | 366 | 554 | 💀 Loss |
+| 51 | Sett | 3/7/6 | 7.1 | 411 | 803 | 💀 Loss |
+| 52 | Shen | 4/2/3 | 6.4 | 409 | 721 | 💀 Loss |
+| 53 | Sett | 7/14/4 | 6.2 | 389 | 1187 | 💀 Loss |
+| 54 | Sett | 3/8/0 | 6.7 | 377 | 1282 | 💀 Loss |
+| 55 | Shen | 6/3/6 | 6.5 | 410 | 725 | 🏆 Win |
+| 56 | Shen | 4/5/8 | 6.5 | 402 | 658 | 🏆 Win |
+| 57 | Shen | 3/2/3 | 7.4 | 373 | 765 | 🏆 Win |
+| 58 | Shen | 10/7/13 | 7.1 | 443 | 1057 | 🏆 Win |
+| 59 | Shen | 5/2/13 | 7.1 | 427 | 771 | 🏆 Win |
+| 60 | Smolder | 15/16/29 | 3.8 | 665 | 1847 | 🏆 Win |
+| 61 | Shen | 7/4/12 | 5.1 | 344 | 1219 | 🏆 Win |
+| 62 | Shen | 3/5/6 | 7.8 | 396 | 785 | 💀 Loss |
+| 63 | Shen | 2/5/22 | 6.0 | 380 | 517 | 🏆 Win |
+| 64 | Shen | 20/4/16 | 8.2 | 559 | 1508 | 🏆 Win |
+| 65 | Shen | 10/7/8 | 5.8 | 423 | 1126 | 🏆 Win |
+| 66 | Shen | 4/4/17 | 5.9 | 385 | 719 | 🏆 Win |
+| 67 | Shen | 7/3/2 | 6.1 | 357 | 613 | 🏆 Win |
+| 68 | Alistar | 0/10/13 | 0.0 | 388 | 813 | 🏆 Win |
+| 69 | Shen | 4/8/3 | 0.0 | 360 | 805 | 💀 Loss |
+| 70 | Shen | 8/7/14 | 6.5 | 426 | 1004 | 💀 Loss |
+| 71 | Shen | 10/3/12 | 6.6 | 462 | 1508 | 🏆 Win |
+| 72 | Shen | 5/1/4 | 7.5 | 423 | 689 | 🏆 Win |
+| 73 | Udyr | 2/3/5 | 6.1 | 352 | 355 | 🏆 Win |
+| 74 | Shen | 8/8/6 | 5.9 | 387 | 994 | 💀 Loss |
+| 75 | Shen | 20/6/12 | 4.6 | 460 | 1780 | 🏆 Win |
+| 76 | Shen | 3/4/7 | 7.7 | 390 | 647 | 💀 Loss |
+| 77 | Shen | 2/10/7 | 4.8 | 294 | 630 | 💀 Loss |
+| 78 | Shen | 9/6/17 | 7.2 | 424 | 1355 | 🏆 Win |
+| 79 | Shen | 0/3/9 | 6.0 | 311 | 604 | 🏆 Win |
+| 80 | Riven | 4/9/9 | 6.3 | 367 | 690 | 🏆 Win |
 
 ## Champion Matchups
 | Matchup | Games | Win Rate | KDA Diff | Gold Diff | CS Diff |
 |---------|-------|----------|----------|-----------|---------|
-| Shen_vs_Sett | 2 | 100.0% | +11.83 | +63.1 | +0.4 |
+| Shen_vs_Sett | 4 | 75.0% | +6.62 | -19.4 | -0.0 |
 | Ornn_vs_Naafiri | 1 | 0.0% | -5.83 | -210.7 | -2.1 |
-| Shen_vs_Ornn | 1 | 100.0% | +6.76 | +59.9 | -0.6 |
-| Shen_vs_Chogath | 2 | 100.0% | +3.03 | +108.8 | +2.5 |
-| Shen_vs_Mordekaiser | 6 | 83.3% | +3.11 | +8.1 | +0.2 |
-| Shen_vs_Gwen | 1 | 100.0% | +2.07 | -2.6 | +0.5 |
+| Shen_vs_Ornn | 2 | 100.0% | +6.62 | +84.3 | -0.3 |
+| Shen_vs_Chogath | 3 | 100.0% | +2.77 | +54.0 | +1.2 |
+| Shen_vs_Mordekaiser | 8 | 87.5% | +2.85 | +7.2 | +0.5 |
+| Shen_vs_Gwen | 2 | 50.0% | +1.01 | -36.5 | -0.2 |
 | Shen_vs_Nasus | 1 | 100.0% | -0.67 | +11.4 | -0.4 |
 | Shen_vs_Taliyah | 1 | 0.0% | +0.14 | -89.1 | -1.6 |
 | Shen_vs_Teemo | 4 | 0.0% | -0.54 | -76.1 | -1.0 |
@@ -108,20 +142,40 @@
 | Sett_vs_XinZhao | 1 | 100.0% | -1.68 | -22.1 | +1.7 |
 | Naafiri_vs_Yone | 1 | 100.0% | +14.71 | +312.6 | +1.6 |
 | Naafiri_vs_Ekko | 1 | 0.0% | -1.13 | +8.8 | +0.2 |
-| Shen_vs_Trundle | 1 | 0.0% | -0.12 | -102.0 | -1.8 |
+| Shen_vs_Trundle | 2 | 50.0% | -0.02 | -69.9 | -1.5 |
 | Shen_vs_Jayce | 2 | 100.0% | +0.83 | -43.7 | -1.4 |
-| Shen_vs_Gangplank | 1 | 100.0% | +11.40 | -21.7 | -1.0 |
+| Shen_vs_Gangplank | 2 | 100.0% | +9.20 | +20.5 | -0.1 |
 | Shen_vs_Gnar | 2 | 50.0% | +3.26 | +27.6 | +1.1 |
 | Shen_vs_Ahri | 1 | 0.0% | -0.17 | -66.2 | -1.0 |
 | Shen_vs_Kled | 1 | 0.0% | -3.33 | -231.3 | -2.6 |
 | Shen_vs_Darius | 2 | 100.0% | +3.19 | -57.3 | -2.1 |
-| Shen_vs_Olaf | 1 | 100.0% | +6.24 | +91.1 | -0.7 |
+| Shen_vs_Olaf | 2 | 100.0% | +7.30 | +141.8 | +0.1 |
 | Shen_vs_Sion | 1 | 0.0% | +2.92 | +11.9 | +0.4 |
 | Shen_vs_Poppy | 1 | 0.0% | -0.82 | -58.5 | -0.1 |
 | Shen_vs_Warwick | 1 | 100.0% | +6.58 | +144.1 | +0.9 |
 | Shen_vs_Rumble | 1 | 100.0% | +7.00 | +177.1 | +2.6 |
 | Shen_vs_Tryndamere | 1 | 100.0% | +0.94 | -44.0 | -1.1 |
-| Shen_vs_Yorick | 1 | 100.0% | +6.83 | +110.0 | +0.5 |
+| Shen_vs_Yorick | 2 | 50.0% | +2.97 | -12.5 | -1.3 |
 | Shen_vs_TahmKench | 1 | 100.0% | +0.11 | -77.7 | -1.3 |
 | Shen_vs_XinZhao | 1 | 100.0% | +5.75 | +70.4 | +0.9 |
 | Sett_vs_Singed | 1 | 0.0% | -2.22 | -40.8 | -0.6 |
+| Shen_vs_Ambessa | 2 | 100.0% | +1.38 | -14.3 | +0.5 |
+| Shen_vs_Riven | 1 | 0.0% | +0.54 | -102.6 | -0.7 |
+| Sett_vs_Kayle | 1 | 0.0% | -4.96 | -162.8 | -2.9 |
+| Sett_vs_Shen | 1 | 0.0% | -5.05 | +96.9 | +3.6 |
+| Shen_vs_Camille | 1 | 0.0% | +2.50 | +97.6 | +1.9 |
+| Sett_vs_Camille | 1 | 0.0% | -1.58 | -155.2 | -0.7 |
+| Sett_vs_DrMundo | 1 | 0.0% | -14.62 | -199.2 | -1.9 |
+| Shen_vs_Fiora | 1 | 100.0% | +2.25 | +86.6 | +0.6 |
+| Shen_vs_Garen | 1 | 100.0% | +0.57 | +8.6 | +1.3 |
+| Shen_vs_Urgot | 2 | 100.0% | +1.92 | +38.3 | -0.0 |
+| Shen_vs_Malphite | 1 | 100.0% | +8.78 | +110.5 | +1.5 |
+| Smolder_vs_FiddleSticks | 1 | 100.0% | +0.25 | -7.3 | +2.1 |
+| Shen_vs_Vayne | 1 | 100.0% | +4.25 | +31.0 | -1.2 |
+| Shen_vs_Kennen | 2 | 0.0% | -2.55 | +16.0 | +1.3 |
+| Alistar_vs_Pyke | 1 | 100.0% | +0.13 | +0.0 | +0.0 |
+| Shen_vs_Ivern | 1 | 0.0% | -7.12 | -340.1 | +0.0 |
+| Shen_vs_Volibear | 1 | 0.0% | +1.69 | +24.1 | +1.2 |
+| Udyr_vs_Nunu | 1 | 100.0% | +1.33 | +1.5 | +1.6 |
+| Shen_vs_Sejuani | 1 | 100.0% | +3.33 | +122.2 | +1.1 |
+| Riven_vs_Warwick | 1 | 100.0% | -0.72 | -55.5 | +0.6 |
