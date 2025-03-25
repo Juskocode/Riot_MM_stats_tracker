@@ -93,14 +93,14 @@ class StatAnalyzer:
             return {
                 "dpm": 0.0,
                 "total_damage_taken": 0.0,
-                "true_damage_ratio": 0.0
+                "true_heal": 0.0
             }
 
         total_damage = max(self._damage_analysis["total_damage_taken"], 1)
         return {
             "dpm": self._damage_analysis["total_damage"] / len(self.matches),
             "total_damage_taken": self._damage_analysis["total_damage_taken"] / len(self.matches),
-            "total_heal_ratio": self._damage_analysis["total_heal"] / total_damage
+            "total_heal": self._damage_analysis["total_heal"] / total_damage
         }
 
     def get_objective_analysis(self) -> Dict:
@@ -108,7 +108,7 @@ class StatAnalyzer:
         if not self.matches:
             return {
                 "dragon_control": 0.0,
-                "herald_control": 0.0,
+                "baron_control": 0.0,
                 "vision_impact": 0.0
             }
 
