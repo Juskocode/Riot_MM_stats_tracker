@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import List, Tuple
 from ..models.schemas import PlayerStats
+from ..visualization.plot_generator import PlotGenerator
 
 
 class ReportGenerator:
@@ -20,8 +21,29 @@ class ReportGenerator:
             self._generate_details(matches),
             self._generate_matchups(analyzer)
         ]
+        plotter = PlotGenerator()
+        plotter.kda_distribution(analyzer)
+        plotter.cs_per_min_timeline(analyzer)
+        plotter.win_rate_by_lane(analyzer)
+        plotter.damage_composition_radar(analyzer)
 
-        content = "\n\n".join(sections)
+        content = f"""
+# Performance Report
+
+## Key Statistics
+{self._generate_summary(analyzer)}
+
+![KDA Distribution](plots/kda_distribution.png)
+![CS Timeline](plots/cs_timeline.png)
+
+## Advanced Metrics
+{self._generate_damage(analyzer)}
+![Damage Composition](plots/damage_radar.png)
+
+{self._generate_matchups(analyzer)}
+                """
+
+        content.join(sections)
         self._save_report(content, "full_report.md")
 
     def _generate_summary(self, analyzer: 'StatAnalyzer') -> str:
@@ -54,7 +76,6 @@ class ReportGenerator:
         return f"""## Damage Analysis
 - 🔥 Damage/Min: {damage_stats['dpm']:.0f}
 - 📊 Damage Taken: {damage_stats['total_damage_taken'] * 100:.1f}%
-- ⚡ Total Heal Ratio: {damage_stats['total_heal_ratio'] * 100:.1f}%
 """
 
     def _generate_objectives(self, analyzer: 'StatAnalyzer') -> str:
