@@ -3,6 +3,7 @@ from src.api.riot_client import RiotAPIClient
 from src.processing.match_processor import MatchProcessor
 from src.analysis.stat_analyser import StatAnalyzer
 from src.reporting.report_genorator import ReportGenerator
+from src.visualization.plot_generator import PlotGenerator
 from pydantic import ValidationError
 
 def main():
@@ -16,6 +17,9 @@ def main():
     api_client = RiotAPIClient(settings)
     processor = MatchProcessor()
     analyzer = StatAnalyzer()
+    plotter = PlotGenerator()
+    plotter.kda_distribution(analyzer)
+    plotter.cs_per_min_timeline(analyzer)
     reporter = ReportGenerator()
 
     # Fetch player data
@@ -26,7 +30,8 @@ def main():
     else:
         print(f"Player PUUID: {puuid}")
     # Process matches
-    match_ids = api_client.get_match_ids(puuid, count=80)
+    match_ids = api_client.get_match_ids(puuid, count=100)
+    print(match_ids)
     for match_id in match_ids:
         match_data = api_client.get_match_data(match_id)
         print(f"Processing match {match_id}")
